@@ -88,8 +88,9 @@ TCP 성능이 많이 느려지는 이유는..
 `HTTP 1.0` 에는 **keep-alive**가 있고, `HTTP 1.1` **지속 커넥션**이 있다~!  
 
 <div>
-  <img src="img/connection.PNG" text-aling="center">
+  <img src="img/connection.png" text-aling="center">
 </div>
+
 
 지속 커넥션의 문제는 바로 `멍청한 프락시` 문제를 야기한다. 
 
@@ -108,8 +109,9 @@ Server측에서 응답을 내려주는 과정에 Proxy는 커넥션이 끊어지
 이 친구는 `Proxy-Connection` 헤더를 바탕으로 스스로 알아서 지속 커넥션을 결정한다!!  
 
 <div>
-  <img src="img/proxy.PNG" text-align="center" >
+  <img src="img/proxy.png" text-align="center" >
 </div>
+
 
 하지만 이것은 언제까지나 `HTTP 1.0` 의 명세임을 인식하라 ㅎㅎ. 
 
