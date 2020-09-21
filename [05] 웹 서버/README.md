@@ -25,8 +25,9 @@
 #### 서버의 멀티쓰레드 지원 여부
 
 <div>
-  <img src="img/multi.PNG" text-align="center"/>
+  <img src="img/multi.png" text-align="center"/>
 </div>
+
 
 크게 4가지 모델로 이루어져있는데
 
